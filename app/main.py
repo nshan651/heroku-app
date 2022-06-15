@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-from flask import Flask, make_response
-import badges
-import data
+from flask import Flask
 
 app = Flask(__name__)
 
