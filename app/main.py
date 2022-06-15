@@ -7,13 +7,7 @@ import data
 app = Flask(__name__)
 
 @app.route('/')
-
 def hello():
-    return 'Hello and welcome to SparkBadge! <a href="/random">Try this.</a>'
-
-@app.route('/random')
-def random():
-    return badges.sparkline(data.sample())
-
+    return 'Hello and welcome to SparkBadge!' 
 
 #app.run(debug=True)
